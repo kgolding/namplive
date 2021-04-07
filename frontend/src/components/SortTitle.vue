@@ -1,7 +1,7 @@
 <template>
   <div @click="handleClick()">
     <slot></slot>
-    <fa v-if="icon" :icon="icon" class="mr-2"/>
+    <fa v-if="icon" :icon="icon" class="ml-2"/>
   </div>
 </template>
 

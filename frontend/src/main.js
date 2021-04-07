@@ -9,10 +9,10 @@ Vue.config.devtools = true;
 import * as Wails from '@wailsapp/runtime';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSortUp, faSortDown, faHeart, faEyeSlash, faSpinner } from '@fortawesome/free-solid-svg-icons'
+import { faSortUp, faSortDown, faHeart, faEyeSlash, faSpinner, faSync } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faSortUp, faSortDown, faHeart, faEyeSlash, faSpinner)
+library.add(faSortUp, faSortDown, faHeart, faEyeSlash, faSpinner, faSync)
 
 Vue.component('fa', FontAwesomeIcon)
 
